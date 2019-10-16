@@ -160,11 +160,13 @@ nav a{
 	justify-content: center;
 }
 h1 {
-	text-align: center;
-	font-size: 80px;
-	margin-left: 30%;
-	margin-right: 30%;
-	width: 300px;
+    font-size: 75px;
+    text-align: center;
+}
+.h1container{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
 
 }
 .intro1{
@@ -173,14 +175,15 @@ h1 {
 	align-content: center;
 	align-items: center;
 	justify-content: space-evenly;
-	padding: 2%;
+    padding: 2%;
 
 }
 
 .gs {
 	border: solid 1px;
 	padding: 5%;
-	width: 40%;
+    width: 40%;
+    text-align: center;
 
 
 }
@@ -199,6 +202,11 @@ h5{
 	padding: 2%;
 	text-align: left;
 
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 hr{
@@ -281,5 +289,68 @@ footer{
     }
     .address{
         padding: 2%;
+    }
+}
+@media (max-width: 500px){
+    .container1{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .container1 img{
+        padding:3%;
+    }
+    nav{
+        margin: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid grey;
+    }
+    nav a{
+        width:100%;
+        border: 1px solid grey;
+        opacity: 1;
+        transition: 0.1s;
+    }
+    nav a:hover{
+        opacity:0.2;
+    }
+    .gs{
+        opacity: 1;
+        transition: 0.1s;
+    }
+    .gs:hover{
+        opacity:0.2;
+    }
+    .first{
+        width: 99%;
+    }
+    .one{
+        flex-direction: column;
+        width:95%;
+        margin: 0;
+        padding: 2%;
+        align-items: center;
+    }
+    .middle-img{
+        max-width: 450px;
+        padding: 1%;
+    }
+    .center{
+        padding: 2%;
+    }
+    .second{
+        width: 99%;
+    }
+    .two{
+        flex-direction: column;
+        width: 95%;
+        align-items: center;
+        padding: 2%;
+
+    }
+    .address{
+        padding: 4%;
     }
 }
