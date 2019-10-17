@@ -162,3 +162,47 @@ hr{
         flex-direction: column;
         align-items: center;
     }
+@media (max-width: 500px){
+    .topnav{
+        margin: 0;
+        width: 100%;
+    }
+    nav{
+        margin: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav a{
+        width: 100%;
+        color: black;
+        border: 1px solid grey;
+        text-align: center;
+        opacity: 0.2;
+        transition: 0.1s;
+    }
+    nav a:hover{
+        opacity: 1;
+    }
+    .first img{
+        padding: 1%;
+        max-width: 465px;
+    }
+    .box{
+        width: 95%;
+    }
+    .footer p{
+        width: 99%;
+    }
+    .services-info-img{
+        display: flex;
+        max-width: 300px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0;
+        width: 99%;
+    }
+}
