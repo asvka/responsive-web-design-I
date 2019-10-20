@@ -143,9 +143,12 @@ nav{
 	align-items: center;
 	justify-content: space-evenly;
     margin: 0.5%;
-
+    opacity: 1;
+    transition: 0.1s;
 }
-
+nav a:hover{
+    opacity:0.2;
+}
 
 nav a{
 	text-decoration: none;
@@ -259,6 +262,11 @@ footer{
     }
     nav{
         width: 95%;
+        opacity: 1;
+        transition: 0.1s;
+    }
+    nav a:hover{
+        opacity:0.2;
     }
     nav a{
         width: 100%;
