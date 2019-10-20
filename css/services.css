@@ -107,6 +107,7 @@ hr{
     padding: 5%;
     justify-content: center;
 }
+
 @media (max-width: 800px){
     .logo{
         padding: 2%;
@@ -122,7 +123,7 @@ hr{
         width: 99%;
     }
     nav a{
-        padding
+        padding: 1%;
     }
     .first img{
         max-width: 750px;
@@ -161,6 +162,7 @@ hr{
         flex-direction: column;
         align-items: center;
     }
+
 @media (max-width: 500px){
     .topnav{
         margin: 0;
@@ -204,4 +206,5 @@ hr{
         margin: 0;
         width: 99%;
     }
+}
 }
